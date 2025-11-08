@@ -17,47 +17,27 @@
 'use client';
 
 // import { clsx } from 'clsx';
-// import P14 from 'public/images/home/AlongHudson.png';
-// import P11 from 'public/images/home/Frank.png';
+
 // import { LocationIcon } from '@/components/Icons'
 // import { useMediaUrl } from '#/state/application/hooks'
-// import P3 from 'public/images/home/Fred.png';
-// import P17 from 'public/images/home/Gabin.jpeg';
-// import P13 from 'public/images/home/galois.png';
-// import P16 from 'public/images/home/GianM.png';
-// import P15 from 'public/images/home/hiCaptainZ.png';
-// import P8 from 'public/images/home/HitchhikerW3.png';
-// import P18 from 'public/images/home/Ivan.jpeg';
-// import P4 from 'public/images/home/jason.svg';
-// import P19 from 'public/images/home/Leo.jpg';
-// import P10 from 'public/images/home/pseudoyu.jpeg';
-// import P7 from 'public/images/home/qc_qizhou.png';
-import P1 from 'public/images/home/shooter.jpeg';
-// import P5 from 'public/images/home/Sinka.png';
-// import P2 from 'public/images/home/Skyhigh.png';
-// import P9 from 'public/images/home/uvd.png';
-// import P6 from 'public/images/home/xhyumiracle.png';
-
-// const DATAS = [
-//   { name: 'NPC_Leo', picture: P19, x: 'NPC_Leo', title: 'Founder of DevBase @DevBase' },
-//   { name: 'justin', picture: P15, x: 'hiCaptainZ', title: 'Researcher. Focusing on Onchain Game' },
-//   { name: 'GianM', picture: P16, x: 'gianmalarcon', title: 'Developer @Cairo/Rust, Blockchain engineer @Quantum3 Labs' },
-//   { name: 'Gabin', picture: P17, x: 'gabinmarignier', title: 'Founder @Focus Tree' },
-//   { name: 'Ivan', picture: P18, x: 'Ivan_SpaceShard', title: '' },
-//   { name: 'shooter', picture: P1, x: 'liushooter', title: 'Co-Founder @Rebase' },
-//   { name: 'Skyhigh', picture: P2, x: 'skyh20', title: 'AA Community Initiator' },
-//   { name: '大葱 Fred', picture: P3, x: 'Dacongfred', title: 'Ryze Labs Venture' },
-//   { name: 'jason', picture: P4, x: 'jason_movebit', title: 'Security research @ScaleBit' },
-//   { name: 'Sinka', picture: P5, x: 'sinka2022', title: 'Founder @Delphinuslab' },
-//   { name: '于晓航', picture: P6, x: 'xhyumiracle', title: 'Core Researcher @Hyper Oracle' },
-//   { name: '周期博士', picture: P7, x: 'qc_qizhou', title: 'Founder @EthStorage' },
-//   { name: '任泓毅', picture: P8, x: 'HitchhikerW3', title: 'Co-founder & research @W3.Hitchhiker' },
-//   { name: 'uvd', picture: P9, x: 'wangtxxl', title: 'Technical ambassador @Sui ' },
-//   { name: 'pseudoyu', picture: P10, x: 'pseudo_yu', title: 'Back-end & Smart Contract Developer @RSS3 & Crossbell' },
-//   { name: 'Frank@Beosin', picture: P11, x: 'BeosinAlert', title: 'Security Researcher & Leader @Beosin Security Incident Team' },
-//   { name: 'galois', picture: P13, x: 'YQ996CO28254695', title: 'Backend Developer / EVM & MEV Researcher' },
-//   { name: 'Frank', picture: P14, x: 'AlongHudson', title: 'Developer advocate @Chainlink' },
-// ];
+import P1 from 'public/images/home/Qinghao.jpeg';
+import P2 from 'public/images/home/King.png';
+import P3 from 'public/images/home/nuanxiang.jpeg';
+import P4 from 'public/images/home/maimai.jpg';
+import P5 from 'public/images/home/Jintol.jpg';
+import P6 from 'public/images/home/xiaobai.jpeg' ;
+import P7 from 'public/images/home/xujiayuan.jpg';
+import P8 from 'public/images/home/zhonghongnian.jpeg';
+import P9 from 'public/images/home/meimei.jpg';
+import P10 from 'public/images/home/pokemon.jpg';
+import P11 from 'public/images/home/wangalvin.jpeg';
+import P12 from 'public/images/home/Blake.jpg';
+import P13 from 'public/images/home/RickyShao.jpg';
+import P14 from 'public/images/home/nuanxiang.jpeg';
+import P15 from 'public/images/home/yaco.png';
+import P16 from 'public/images/home/liyin.jpg';
+import P17 from 'public/images/home/majoson.png';
+import P18 from 'public/images/home/yaco.png';
 
 const DATAS = [
   {
@@ -66,7 +46,6 @@ const DATAS = [
     x: 'lispking',
     github: 'https://github.com/lispking',
     contact: 'lispking',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=1NEXaoiavtakfnFQuMvlda1kwAf-GKKHG',
     picture: P1,
     identity: 'Contract Engineer;Backend Engineer;Fullstack Engineer',
   },
@@ -76,8 +55,7 @@ const DATAS = [
     x: 'weriaolilun',
     github: 'github.com/wfnuser',
     contact: 'wechat: wfnusee',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=1YBbRQANN6koCg8vjmKr7ky7C56tzK0t2',
-    picture: P1,
+    picture: P2,
     identity: 'Fullstack Engineer',
   },
   {
@@ -86,8 +64,7 @@ const DATAS = [
     x: 'coco69564520',
     github: 'https://github.com/xiangnuans',
     contact: 'guo1368574',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=1yRXzq_eVDhs_nIXcjsrvBnCtpFVObFHy',
-    picture: P1,
+    picture: P3,
     identity: 'Fullstack Engineer',
 
   },
@@ -97,8 +74,7 @@ const DATAS = [
     x: 'LeeMmai',
     github: 'https://github.com/LeeMaimai',
     contact: 'LizMai123',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=19S-THuCeWxV3Lt8M3HilR6iFcrbD7_5F',
-    picture: P1,
+    picture: P4,
     identity: 'Marketing',
 
   },
@@ -108,8 +84,7 @@ const DATAS = [
     x: 'JintolOfficial',
     github: 'https://github.com/JintolChan',
     contact: 'Telegram：JintolOfficial',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=1goRfDDRGdJ9mBpCPXDda5NtYyyEFuuRp',
-    picture: P1,
+    picture: P5,
     identity: 'Fullstack Engineer',
   },
   {
@@ -118,8 +93,7 @@ const DATAS = [
     x: '0x_cat_Student',
     github: '0x-IHRR',
     contact: 'Ox_IHRR',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=12Tf8JOlkcErQFV9NXpnZRAQQkaUCXb9f',
-    picture: P1,
+    picture: P6,
     identity: 'Product Manager;Designer',
   },
   {
@@ -128,8 +102,7 @@ const DATAS = [
     x: '许嘉媛',
     github: 'sherryxie995',
     contact: 'xy_939422751',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=1q6vH74y7NvPjgob-nfHY0SKUN8jgrJuN',
-    picture: P1,
+    picture: P7,
     identity: 'Backend Engineer',
   },
   {
@@ -138,8 +111,7 @@ const DATAS = [
     x: 'VCNelson_Z',
     github: 'NA',
     contact: 'wechat：nhz_Nelson',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=1LcBeebU8Uq4sDXxn1XErcRGRY9pkOxxl',
-    picture: P1,
+    picture: P8,
     identity: 'Product Manager;Community Operation;Marketing',
   },
   {
@@ -148,8 +120,7 @@ const DATAS = [
     x: 'everyevery91608',
     github: 'https://github.com/everyeveryV',
     contact: 'zhiyuxi666',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=14JMCgxx9-a-D8tjPGXkMgUAbLoL5Au9s',
-    picture: P1,
+    picture: P9,
     identity: 'Community Operation;Writer',
   },
   {
@@ -158,8 +129,7 @@ const DATAS = [
     x: 'Alger779503577',
     github: 'https://github.com/dajiangjunok',
     contact: '微信：_KFC-v50-',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=1HM91FKNULuDau41xP8BBVZXbZdCxhJ5r',
-    picture: P1,
+    picture: P10,
     identity: 'Contract Engineer;Frontend Engineer',
   },
   {
@@ -168,8 +138,7 @@ const DATAS = [
     x: 'AlvinWang9521',
     github: 'https://github.com/Nakiswen',
     contact: '18627687129',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=13i3MVEkaopG5ZYw6SmSQS-_GEPQS-F_B',
-    picture: P1,
+    picture: P11,
     identity: 'Frontend Engineer;Fullstack Engineer',
   },
   {
@@ -178,8 +147,7 @@ const DATAS = [
     x: 'Blakeesss',
     github: 'https://github.com/blakeees',
     contact: 'blakees',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=19bdHtTk2zDAWJDNNE-Pe5h1mPJ8qr9oP',
-    picture: P1,
+    picture: P12,
     identity: 'Writer',
   },
   {
@@ -188,8 +156,7 @@ const DATAS = [
     x: 'RickyEACC',
     github: 'veithly',
     contact: 'wechat: RICKY-SHA0',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=1sHjhMx60O6urpJKgHfNYK6CofArgR4Mq',
-    picture: P1,
+    picture: P13,
     identity: 'Fullstack Engineer;Writer',
   },
   {
@@ -198,8 +165,7 @@ const DATAS = [
     x: 'coco69564520',
     github: 'https://github.com/xiangnuans',
     contact: 'guo1368574',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=13DeQtuJaG0zwfpOLfRRYCBMq3uqXKm3U',
-    picture: P1,
+    picture: P14,
     identity: 'Fullstack Engineer',
   },
   {
@@ -208,8 +174,7 @@ const DATAS = [
     x: '0xyaco',
     github: 'OS-Lihua',
     contact: 'YaCoTg',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=18d7B882gQxR6tBXdKmMnBdJE6Bpb7IDH',
-    picture: P1,
+    picture: P15,
     identity: 'Contract Engineer;Product Manager;Community Operation;Writer',
   },
   {
@@ -218,8 +183,7 @@ const DATAS = [
     x: 'young_x_',
     github: 'https://github.com/liyincode',
     contact: '微信：young-wx-',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=18EqYfzQPisL2KVAmHv9n7n4QtBf04xHK',
-    picture: P1,
+    picture: P16,
     identity: 'Frontend Engineer;Fullstack Engineer',
   },
   {
@@ -228,8 +192,7 @@ const DATAS = [
     x: 'YoukinChen',
     github: 'majoson-chen',
     contact: 'majoson168（wechat）',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=14ZZYLDY1D01K7pxMIaJ24KORSMad5INq',
-    picture: P1,
+    picture: P17,
     identity: 'Contract Engineer;Backend Engineer;Frontend Engineer;Fullstack Engineer;Product Manager;Community Operation;Writer',
   },
   {
@@ -238,8 +201,7 @@ const DATAS = [
     x: '0xYaCo',
     github: 'https://github.com/OS-Lihua',
     contact: 'https://t.me/yacoyaco',
-    avatar: 'https://drive.google.com/u/0/open?usp=forms_web&id=1-oTkDN3goWVJWJhGRTjbROqPzQfXO5DF',
-    picture: P1,
+    picture: P18,
     identity: 'Contract Engineer;Backend Engineer;Product Manager;Community Operation',
   },
 ];
